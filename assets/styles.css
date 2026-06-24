@@ -72,7 +72,6 @@ img {
 .role-board strong,
 .ops-grid h3,
 .lab-grid h3,
-.poc-timeline h3,
 .materials-grid strong,
 .guardrail-inner h2 {
   word-break: keep-all;
@@ -427,8 +426,7 @@ main {
 .team-principles p,
 .team-grid p,
 .role-board p,
-.ops-grid p,
-.poc-timeline p {
+.ops-grid p {
   margin: 0;
   color: var(--muted);
 }
@@ -972,44 +970,6 @@ main {
   margin-top: 18px;
 }
 
-.poc-section {
-  background: #fff;
-  border-block: 1px solid var(--line);
-}
-
-.poc-inner {
-  display: grid;
-  grid-template-columns: 0.78fr 1.22fr;
-  gap: max(28px, 5vw);
-  padding-block: 76px;
-}
-
-.poc-timeline {
-  display: grid;
-  gap: 14px;
-}
-
-.poc-timeline article {
-  display: grid;
-  grid-template-columns: 94px minmax(0, 1fr);
-  gap: 18px;
-  padding: 22px;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-}
-
-.poc-timeline span {
-  color: var(--red);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-weight: 950;
-}
-
-.poc-timeline h3 {
-  margin: 0 0 6px;
-  font-size: var(--title-card);
-}
-
 .guardrail-section {
   background: var(--base);
   color: #fff;
@@ -1100,7 +1060,6 @@ main {
   .lens-section,
   .team-section .section-title,
   .team-layout,
-  .poc-inner,
   .guardrail-inner {
     grid-template-columns: 1fr;
   }
@@ -1165,8 +1124,7 @@ main {
     grid-template-columns: 1fr;
   }
 
-  .run-sheet article,
-  .poc-timeline article {
+  .run-sheet article {
     grid-template-columns: 1fr;
     gap: 8px;
   }
