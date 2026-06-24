@@ -67,6 +67,10 @@ img {
 .program-flow h3,
 .study-grid h3,
 .lens-grid h3,
+.team-principles h3,
+.team-grid h3,
+.role-board strong,
+.ops-grid h3,
 .lab-grid h3,
 .poc-timeline h3,
 .materials-grid strong,
@@ -420,6 +424,10 @@ main {
 .run-sheet p,
 .program-flow p,
 .study-grid p,
+.team-principles p,
+.team-grid p,
+.role-board p,
+.ops-grid p,
 .poc-timeline p {
   margin: 0;
   color: var(--muted);
@@ -726,6 +734,193 @@ main {
   font-size: var(--title-card);
 }
 
+.team-section {
+  background: #fff;
+  border-block: 1px solid var(--line);
+}
+
+.team-inner {
+  padding-block: 76px;
+}
+
+.team-section .section-title {
+  display: grid;
+  grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
+  gap: max(24px, 5vw);
+  align-items: end;
+}
+
+.team-layout {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.78fr) minmax(0, 1.22fr);
+  gap: 14px;
+  margin-top: 36px;
+}
+
+.team-principles,
+.team-grid,
+.role-board,
+.ops-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.team-principles article,
+.team-grid article,
+.role-board article,
+.ops-grid article {
+  border-radius: 8px;
+}
+
+.team-principles article {
+  padding: 24px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--red);
+}
+
+.team-principles article:nth-child(2) {
+  border-left-color: var(--gold);
+}
+
+.team-principles article:nth-child(3) {
+  border-left-color: var(--green);
+}
+
+.team-principles span,
+.team-grid span,
+.role-board span,
+.ops-grid span {
+  display: inline-block;
+  color: var(--red);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.team-principles h3,
+.team-grid h3,
+.ops-grid h3 {
+  margin: 12px 0 10px;
+  font-size: var(--title-card);
+  line-height: 1.28;
+}
+
+.team-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.team-grid article {
+  min-height: 188px;
+  padding: 24px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-top: 6px solid var(--blue);
+}
+
+.team-grid article:nth-child(2) {
+  border-top-color: var(--gold);
+}
+
+.team-grid article:nth-child(3) {
+  border-top-color: var(--green);
+}
+
+.team-grid article:nth-child(4) {
+  border-top-color: var(--red);
+}
+
+.team-grid article:nth-child(5) {
+  border-top-color: var(--violet);
+}
+
+.role-board {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 14px;
+}
+
+.role-board article {
+  padding: 24px;
+  background: var(--base);
+  border: 1px solid var(--line-dark);
+  color: #fff;
+}
+
+.role-board span {
+  color: var(--gold);
+}
+
+.role-board strong {
+  display: block;
+  margin: 12px 0 10px;
+  font-size: var(--title-card);
+  line-height: 1.28;
+}
+
+.role-board p {
+  color: var(--muted-dark);
+}
+
+.ops-section {
+  padding-block: 76px;
+}
+
+.ops-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 34px;
+}
+
+.ops-grid article {
+  min-height: 315px;
+  padding: 24px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-top: 6px solid var(--blue);
+}
+
+.ops-grid article:nth-child(2) {
+  border-top-color: var(--gold);
+}
+
+.ops-grid article:nth-child(3) {
+  border-top-color: var(--green);
+}
+
+.ops-grid article:nth-child(4) {
+  border-top-color: var(--red);
+}
+
+.ops-grid article:nth-child(5) {
+  border-top-color: var(--violet);
+}
+
+.ops-grid article:nth-child(6) {
+  border-top-color: var(--base);
+}
+
+.ops-grid ul {
+  display: grid;
+  gap: 7px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ops-grid li {
+  position: relative;
+  padding-left: 18px;
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.ops-grid li::before {
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  content: "•";
+}
+
 .lens-grid ul,
 .lab-grid ul,
 .guardrail-inner ul {
@@ -903,6 +1098,8 @@ main {
   .lecture-pack-inner,
   .epm-section .section-title,
   .lens-section,
+  .team-section .section-title,
+  .team-layout,
   .poc-inner,
   .guardrail-inner {
     grid-template-columns: 1fr;
@@ -910,6 +1107,7 @@ main {
 
   .concept-strip,
   .program-flow,
+  .ops-grid,
   .lab-grid,
   .materials-grid,
   .epm-path {
@@ -917,7 +1115,8 @@ main {
   }
 
   .study-grid,
-  .lens-grid {
+  .lens-grid,
+  .team-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -957,6 +1156,9 @@ main {
   .program-flow,
   .study-grid,
   .lens-grid,
+  .team-grid,
+  .role-board,
+  .ops-grid,
   .lab-grid,
   .materials-grid,
   .epm-path {
