@@ -10,6 +10,8 @@
 - `assets/styles.css`: 반응형 페이지 스타일
 - `assets/shinsegae-seminar-cover.png`: 6/26 강의자료 표지 이미지
 - `outputs/seminar-20260626.pdf`: 강의자료 PDF
+- `outputs/shinsegae-ai4pm-0626-3h-workshop.pdf`: 6/26 워크샵 진행자료 PDF
+- `outputs/shinsegae-ai4pm-workshop-tracker.xlsx`: Google Sheets로 가져와 사용할 워크샵 운영 스프레드시트
 
 ## 핵심 흐름
 
