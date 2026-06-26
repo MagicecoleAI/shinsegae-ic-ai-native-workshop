@@ -579,7 +579,10 @@ main {
   font-weight: 650;
 }
 
-.lecture-summary .button {
+.lecture-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
   margin-top: 26px;
 }
 
@@ -995,7 +998,7 @@ main {
 
 .materials-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 14px;
   margin-top: 34px;
 }
