@@ -1031,6 +1031,27 @@ main {
   line-height: 1.28;
 }
 
+.presentation-members {
+  margin: 0 0 12px;
+  padding: 10px 12px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.45;
+  word-break: keep-all;
+}
+
+.presentation-members strong {
+  display: inline-block;
+  margin-right: 8px;
+  color: var(--red);
+  font-size: 0.78rem;
+  font-weight: 950;
+}
+
 .presentation-actions {
   display: flex;
   flex-wrap: wrap;
