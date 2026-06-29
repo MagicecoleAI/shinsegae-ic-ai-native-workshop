@@ -20,6 +20,7 @@
 - `outputs/team-03-infra-request-guide-ai-agent.pdf`: 3조 인프라 업무 요청 가이드 AI Agent 구현 발표자료
 - `outputs/team-04-market-news-stock-disclosure-report-agent.pdf`: 4조 MARK 뉴스·주가·공시 리포트 에이전트 발표자료
 - `outputs/team-05-ai-agent-project-management.pdf`: 5조 AI Agent 기반 프로젝트 WBS 관리 발표자료
+- `assets/presentations/team-01-presentation.jpg` ~ `assets/presentations/team-05-presentation.jpg`: 6/26 오후 팀별 발표 장면 사진
 
 ## 핵심 흐름
 

@@ -1083,6 +1083,12 @@ main {
   color: var(--ink);
 }
 
+.presentation-photo {
+  background: var(--gold);
+  color: var(--base);
+  border-color: var(--gold);
+}
+
 .presentation-actions a:hover,
 .presentation-actions a:focus-visible {
   transform: translateY(-1px);
