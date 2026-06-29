@@ -15,6 +15,11 @@
 - `outputs/shinsegae-ai-economy-2026-briefing.pptx`: AI Economy 2026 시장 브리핑 PPTX 원본
 - `outputs/shinsegae-ai4pm-0626-3h-workshop.pdf`: 6/26 워크샵 진행자료 PDF
 - `outputs/shinsegae-ai4pm-workshop-tracker.xlsx`: Google Sheets로 가져와 사용할 워크샵 운영 스프레드시트
+- `outputs/team-01-s2d-profit-management-automation.pdf`: 1조 S2D 프로젝트 예상손익 관리 자동화 발표자료
+- `outputs/team-02-weekly-report-automation.pdf`: 2조 주간보고서 자동화 발표자료
+- `outputs/team-03-infra-request-guide-ai-agent.pdf`: 3조 인프라 업무 요청 가이드 AI Agent 구현 발표자료
+- `outputs/team-04-market-news-stock-disclosure-report-agent.pdf`: 4조 MARK 뉴스·주가·공시 리포트 에이전트 발표자료
+- `outputs/team-05-ai-agent-project-management.pdf`: 5조 AI Agent 기반 프로젝트 WBS 관리 발표자료
 
 ## 핵심 흐름
 
